@@ -24,3 +24,16 @@ Disadvantage:
 The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. Sometimes it’s simpler just to change the service class so that it matches the rest of your code.
 
 
+Observer Pattern:
+
+Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
+
+Example:
+Now consider we subscribed to a OTT platform, if there is a new movie release in the platform we get a notification to watch the movie. Here we are the Observer and the OTT becomes oberservable.Similarly in code a publisher class is created which is connected to a subscriber classes, publisher notifies theses  subscriber's when there is information which need to be notify. 
+
+Advantages:
+You can introduce new subscriber without changing the publisher code.
+
+Disadvantages:
+Subscribers are notified in random order
+
