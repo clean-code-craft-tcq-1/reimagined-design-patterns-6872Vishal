@@ -52,4 +52,15 @@ Disadvantage:
 When there are only couple of state machine or code changes rarely, this pattern is not recommended.  
 
 
+Mediator pattern:
 
+Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under behavioral pattern category.
+
+Example:
+You want to travel to a certain location in a cab, you need to check with individual cab driver which is a long and inefficient. Now we introduce a mediator bettween you and the cab drivers, in this case a Uber or a OLA will act as a mediator to verify the avaliability of cab driver and assign to you.
+
+Advantage :
+You can extract the communications between various components into a single place, making it easier to comprehend and maintain.
+
+Disadvantage :
+Over time a mediator can evolve into a God Object.
