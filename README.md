@@ -37,3 +37,19 @@ You can introduce new subscriber without changing the publisher code.
 Disadvantages:
 Subscribers are notified in random order
 
+
+State Pattern:
+
+In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
+
+Example:
+In our mobile phones we have three modes for incoming calls, Ring, Vibrate and Silent Mode. Each option provides us the different outputs. Similar in code based on internal state machine cycle, we will set the code perform different operations.
+
+Advantage:
+Organize the code related to particular states into separate classes and simpliflying the code.
+
+Disadvantage:
+When there are only couple of state machine or code changes rarely, this pattern is not recommended.  
+
+
+
